@@ -8,13 +8,7 @@ public class Video : Media
         Format = format;
 
     }
-     public Video(string id, string title, string year)
-    {
-        Id = id;
-        Title = title;
-        Year = year;
-
-    }
+  
     public string Id { get; set; }
     public string Title { get; set; }
     public string Year { get; set; }
