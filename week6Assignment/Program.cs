@@ -12,7 +12,7 @@
         do
         {
             Console.WriteLine("1) Read data from file.");
-            Console.WriteLine("2) Create file from data.");
+            Console.WriteLine("2) Write to file from data.");
             Console.WriteLine("Enter any other key to exit.");
             // stored user  input 
             input = Console.ReadLine();

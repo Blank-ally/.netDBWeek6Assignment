@@ -9,14 +9,7 @@ public class Show : Media
         Network = network;
 
     }
-    
-     public Show(string id,string title,string year)
-    {
-        Id = id;
-        Title =  title;
-        Year =  year;
-
-    }
+     
        public string Id { get; set; }
     public string Title { get; set; }
     public string Year { get; set; }
@@ -27,4 +20,5 @@ public class Show : Media
     {
         return $"Title: {Title}, Year: {Year}, Network: {Network}";
     }
+
     }

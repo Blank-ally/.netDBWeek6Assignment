@@ -5,11 +5,9 @@ public class Movie : Media
         ID = id;
         Title =  title;
         Genres = genres;
-     
-      
+        
     }
- 
-
+    
     public string ID { get; set; }
     public string Title { get; set; }
     public Array Genres { get; set; }
