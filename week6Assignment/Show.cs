@@ -1,24 +1,27 @@
 public class Show : Media
 {
   
-     public Show(string id,string title,string year,string network)
+     public Show(string id,string title,string season,string episode,Array writer)
     {
-        Id = id;
+        ID = id;
         Title =  title;
-        Year =  year;
-        Network = network;
+        Season = season ;
+        Episode = episode ;
+        Writer = writer ;
+        
 
     }
      
-       public string Id { get; set; }
+       public string ID { get; set; }
     public string Title { get; set; }
-    public string Year { get; set; }
-      public string Network { get; set; }
+    public string Season { get; set; }
+    public string Episode { get; set; }
+    public Array Writer { get; set; }
   
 
   public override string ToString()
     {
-        return $"Title: {Title}, Year: {Year}, Network: {Network}";
+        return $"Title: {Title}, Season: {Season}, Episode: {Episode}, {string.Join('|', Writers)}";
     }
 
     }
